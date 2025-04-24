@@ -1,0 +1,53 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+env/
+venv/
+*.env
+*.venv
+*.virtualenv
+
+# Ignore logs
+*.log
+logs/
+nohup.out
+
+# Ignore dataset & large raw files
+dataset/
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore YOLO runs (except results folder if uploading)
+runs/detect/  # YOLOv8 detection runs
+runs/classify/
+runs/pose/
+runs/train/
+runs/val/
+
+# Keep YOLO segmentation results only
+!runs/segment/predict/
+!runs/segment/train/
+!runs/segment/val/
+
+# Ignore model checkpoints (large files)
+*.pt
+*.pth
+*.onnx
+*.h5
+checkpoints/
+weights/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore unnecessary Colab files
+colab_uploads/

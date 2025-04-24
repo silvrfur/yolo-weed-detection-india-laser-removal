@@ -1,0 +1,27 @@
+# Core dependencies
+ultralytics==8.1.0  # YOLOv8
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Image processing
+opencv-python
+numpy
+matplotlib
+Pillow
+
+# Segment Anything (SAM)
+git+https://github.com/facebookresearch/segment-anything.git
+timm
+onnxruntime
+pycocotools
+
+# Data handling
+pandas
+tqdm
+scipy
+
+# Colab (if running on Google Colab)
+ipython
+ipykernel
+notebook
