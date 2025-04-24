@@ -7,6 +7,33 @@ This project aims to assist Indian farmers with weed removal using a low-cost AI
 > 👨‍🌾 Built for Indian farms using a local dataset, affordable hardware, and deep learning.
 
 ---
+---
+
+## 🖼️ Sample Image Flow
+
+### ▶️ Input to SAM
+**Input Image:**
+![Input SAM](images/input_sam.png)
+
+**Output Mask (SAM):**
+![Output SAM Mask](images/output_sam.png)
+
+---
+
+### 🎯 YOLOv8 Segmentation
+**Input Image:**
+![Input YOLO](images/example.png)
+
+**YOLO Output :**
+![Output YOLO](images/o1.png)
+![Output YOLO](images/o2.png)
+![Output YOLO](images/o3.png)
+![Output YOLO](images/o4.png)
+
+---
+
+🗂️ All images are located in the `images/` folder.
+
 
 ## 📦 Repository Structure
 
